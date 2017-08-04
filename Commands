@@ -1,0 +1,2 @@
+# To Refresh the environment
+curl -X POST denmark-preview.compareglobal.co.uk/refresh
