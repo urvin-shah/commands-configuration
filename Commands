@@ -1,2 +1,4 @@
 # To Refresh the environment
 curl -X POST denmark-preview.compareglobal.co.uk/refresh
+# To Find the stale connections
+netstat -ap | grep [k]viknet
