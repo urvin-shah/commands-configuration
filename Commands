@@ -2,3 +2,4 @@
 curl -X POST denmark-preview.compareglobal.co.uk/refresh
 # To Find the stale connections
 netstat -ap | grep [k]viknet
+netstat -a | grep kv
