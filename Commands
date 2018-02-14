@@ -3,3 +3,11 @@ curl -X POST denmark-preview.compareglobal.co.uk/refresh
 # To Find the stale connections
 netstat -ap | grep [k]viknet
 netstat -a | grep kv
+
+
+## Kill some running process (When we receive some port is bind already) windows
+1. Find the running process
+netstat -ano | findstr :8080
+
+2. kill the process
+taskkill /PID <Valud of PID> /F
