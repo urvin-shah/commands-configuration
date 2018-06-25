@@ -11,3 +11,7 @@ netstat -ano | findstr :8080
 
 2. kill the process
 taskkill /PID <Valud of PID> /F
+
+# Git Hub Commands
+# Use Windows credentials in Git Bash
+git config --global credential.helper wincred
